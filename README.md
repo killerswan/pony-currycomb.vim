@@ -1,13 +1,13 @@
 # Syntastic support for the Pony language
 
 
-## No syntax provided
+## No highlighting provided
+
+This is a single-purpose Vim plugin for the sole purpose of providing syntastic support, and which should be compatible (with no conflicts) with any more fully-featured plugins.
 
 For syntax highlighting, you might try out either
 * jakwings' [vim-pony](https://github.com/jakwings/vim-pony) which doesn't have a checker but provides syntax highlighting, or
 * David Leonard's [pony-vim-syntax](https://github.com/dleonard0) which provides an identical (for now) checker, named `ponyc`, plus syntax highlighting.
-
-This is a single-purpose Vim plugin for the sole purpose of providing syntastic support, and which should be compatible (with no conflicts) with any of the more fully-featured plugins.
 
 
 ## Checker setup
