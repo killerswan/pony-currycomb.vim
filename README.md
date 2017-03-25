@@ -3,7 +3,7 @@
 
 ## No highlighting provided
 
-This is a single-purpose Vim plugin for the sole purpose of providing syntastic support, and which should be compatible (with no conflicts) with any more fully-featured plugins.
+This is a single-purpose Vim plugin for Syntastic support, and which should be compatible (with no conflicts) with any more fully-featured plugins.
 
 For syntax highlighting, you might try out either
 * jakwings' [vim-pony](https://github.com/jakwings/vim-pony) which doesn't have a checker but provides syntax highlighting, or
