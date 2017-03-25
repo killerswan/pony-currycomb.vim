@@ -1,5 +1,6 @@
 # Syntastic support for the Pony language
 
+
 ## No syntax provided
 
 For syntax highlighting, you might try out either
@@ -7,6 +8,7 @@ For syntax highlighting, you might try out either
 * dleonard0's [pony-vim-syntax](https://github.com/dleonard0) which provides an identical (for now) checker, named `ponyc`, plus syntax highlighting.
 
 This is a single-purpose Vim plugin for the sole purpose of providing syntastic support, and which should be compatible (with no conflicts) with any of the more fully-featured plugins.
+
 
 ## Checker setup
 
@@ -31,6 +33,11 @@ And if your `ponyc` is in an unusual location:
 ```vim
 let g:syntastic_pony_ponyc_exe = '/path/to/your/ponyc'
 ```
+
+## Internals
+
+Currently, the syntax checker runs `ponyc --pass=expr` in the parent directory, just like dleonard0's plugin does.
+
 
 ## References
 
